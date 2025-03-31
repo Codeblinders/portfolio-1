@@ -10,9 +10,7 @@ const App = () => {
           <a href="mailto:vivekyadav4858@gmail.com">vivekyadav4858@gmail.com</a> | +91-8957005710 |
           <a href="https://github.com/Codeblinders" target="_blank" rel="noopener noreferrer">
             github.com/Codeblinders
-          </a> |
-          <a href="https://yourportfolio.com" target="_blank" rel="noopener noreferrer">Portfolio</a>
-        </p>
+          </a>         </p>
       </header>
 
       <section>
