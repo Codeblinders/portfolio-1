@@ -1,0 +1,111 @@
+/* Global Styles */
+body {
+  background: #f4f4f9;
+  color: #333;
+  line-height: 1.6;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Header */
+header {
+  background: linear-gradient(135deg, #2a2a72, #009ffd);
+  color: white;
+  text-align: center;
+  padding: 3rem 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* Contact */
+.contact {
+  font-size: 1.1rem;
+}
+
+.contact a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.contact a:hover {
+  color: #ffd700;
+}
+
+/* Section */
+section {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+section:hover {
+  transform: translateY(-5px);
+}
+
+section h2 {
+  color: #2a2a72;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #009ffd;
+  display: inline-block;
+}
+
+/* Skill List */
+ul.skill-list {
+  list-style: none;
+}
+
+ul.skill-list li {
+  margin: 0.5rem 0;
+}
+
+/* Job */
+.job {
+  margin-bottom: 1rem;
+}
+
+.job-title {
+  font-size: 1.3rem;
+  color: #333;
+}
+
+.job-subtitle {
+  font-style: italic;
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+
+/* Education */
+.education {
+  line-height: 1.8;
+}
+
+/* Project */
+.project {
+  margin-bottom: 1.5rem;
+}
+
+.project-title {
+  font-size: 1.3rem;
+  color: #333;
+}
+
+.project-tech {
+  font-style: italic;
+  color: #666;
+  margin-bottom: 0.5rem;
+}
